@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 
 const BookingForm = () => {
   const [formData, setFormData] = useState({
-    place: "Conference Room", // Default facility
+    place: "Conference Room", 
     time: "",
     building: "",
     floor: "",
@@ -15,7 +15,7 @@ const BookingForm = () => {
     paymentMethod: "Post Paid",
     comment: "",
   });
-    const navigate = useNavigate(); // Hook for navigation
+    const navigate = useNavigate(); 
   
 
   // Available options
@@ -25,7 +25,7 @@ const BookingForm = () => {
   const units = ["Unit 101", "Unit 202", "Unit 303"];
   const users = ["John Doe", "Jane Smith", "Alice Johnson"];
 
-  // Sample time slots (this could be dynamic in the future)
+  // Sample time slots 
   const timeSlots = [
     "10:00 AM - 10:30 AM",
     "11:00 AM - 11:30 AM",
@@ -196,7 +196,7 @@ const BookingForm = () => {
           </div>
         )}
 
-        {/* Payment Mode */}
+        {/* Payment Mode submission */}
         <div>
           <label className="block font-semibold">Payment Mode</label>
           <div className="flex space-x-4 mt-2">
@@ -227,7 +227,7 @@ const BookingForm = () => {
           </div>
         </div>
 
-        {/* Comment */}
+        {/* Comment box */}
         <div>
           <label className="block">Comment:</label>
           <textarea

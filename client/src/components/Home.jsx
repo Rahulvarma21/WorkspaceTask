@@ -46,7 +46,7 @@ const Home = () => {
                 <tr
                   key={booking._id}
                   className="text-center cursor-pointer hover:bg-gray-100"
-                  onClick={() => navigate(`/booking/${booking._id}`)} // Navigate on click
+                  onClick={() => navigate(`/booking/${booking._id}`)} 
                 >
                   {" "}
                   <td className="border p-2">{booking.user}</td>
