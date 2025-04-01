@@ -8,6 +8,9 @@ This is a **Workspace Booking System** with a **React.js** frontend and a **Flas
 - **Bookings List Page**: Displays a list of all workspace bookings made by users.
 - **Booking Details Page**: Displays detailed information about a specific booking, including the payment method.
 
+[Video](https://www.loom.com/share/2e3147cd88604a64a61a3bf0cf166fe2?sid=dc36c377-e00d-4066-b82e-aa74daedbcec)
+
+
 ## Tech Stack
 
 - **Frontend**: React.js, Tailwind CSS
