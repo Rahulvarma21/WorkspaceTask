@@ -43,3 +43,6 @@ python app.py
 ```
 
 ### Deplyment
+```bash
+https://worskpacebookingtask.netlify.app/
+```
