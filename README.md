@@ -36,13 +36,11 @@ To build the frontend for production:
 npm run build
 ```
 
-### To run frontend
+### To run backend
 To run the server
 ```bash
 python app.py
 ```
 
 ### Deplyment
-```bash
 https://worskpacebookingtask.netlify.app/
-```
