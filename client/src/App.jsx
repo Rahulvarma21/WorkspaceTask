@@ -2,8 +2,9 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./Home";
 import BookingForm from "./BookingForm";
-import Navbar from "./Navbar"; // ✅ Import Navbar
+import Navbar from "./Navbar"; 
 import BookingDetails from "./BookingDetails";
+import "@fontsource/poppins";
 
 function App() {
   return (

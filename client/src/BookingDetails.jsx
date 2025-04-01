@@ -30,8 +30,8 @@ const BookingDetails = () => {
   if (!booking) return <p>Loading...</p>;
 
   return (
-    <div className="p-6">
-      <div className="bg-gradient-to-r from-blue-500 to-yellow-500 text-white text-lg font-semibold py-3 px-4 rounded-t-md">
+    <div className="font-[poppins] p-6">
+      <div className="bg-black text-white text-lg font-semibold py-3 px-4 rounded-t-md">
         Booking Details
       </div>
       <div className="border border-gray-300 bg-white rounded-b-md shadow-md p-4">

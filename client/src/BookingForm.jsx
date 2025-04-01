@@ -65,9 +65,9 @@ const BookingForm = () => {
   };
 
   return (
-    <div className="max-w-5xl mx-auto p-6 bg-white shadow-md rounded-md">
+    <div className="font-[poppins] max-w-5xl mx-auto p-6 bg-white shadow-md rounded-md">
       {/* Header */}
-      <div className="text-center py-2 bg-gradient-to-r from-purple-500 to-yellow-500 text-white font-semibold text-lg rounded-t-md">
+      <div className="text-center py-2 bg-black text-white font-semibold text-lg rounded-t-md">
         Book Facility
       </div>
 
@@ -245,7 +245,7 @@ const BookingForm = () => {
             onClick={handleSubmit}
             className="bg-green-500 text-white px-6 py-2 rounded"
           >
-            ✅ Submit
+            Submit
           </button>
         </div>
       </div>

@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
-import { useNavigate } from "react-router-dom"; // Import useNavigate
+import { useNavigate } from "react-router-dom"; 
 import axios from "axios";
 
 const Home = () => {
   const [bookings, setBookings] = useState([]);
-  const navigate = useNavigate(); // Hook for navigation
+  const navigate = useNavigate(); 
 
 
   useEffect(() => {
@@ -22,12 +22,12 @@ const Home = () => {
 
   return (
     <div>
-      <h2 className="text-2xl font-bold text-center mt-4">📋 All Bookings</h2>
+      <h2 className="text-2xl font-[poppins] font-bold text-center mt-4">📋 All Bookings</h2>
       <div className="p-4">
         {bookings.length === 0 ? (
-          <p className="text-center">No bookings available.</p>
+          <p className="text-center font-[poppins]">No bookings available.</p>
         ) : (
-          <table className="w-full border-collapse border border-gray-300 mt-4">
+          <table className="w-full border-collapse font-[poppins] border border-gray-300 mt-4">
             <thead>
               <tr className="bg-gray-100">
                 <th className="border p-2">User</th>
