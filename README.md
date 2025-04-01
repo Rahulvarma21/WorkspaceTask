@@ -31,13 +31,11 @@ git clone https://github.com/your-username/workspace-booking-system.git
 ```
 
 ### To run frontend
-To build the frontend for production:
 ```bash
 npm run build
 ```
 
 ### To run backend
-To run the server
 ```bash
 python app.py
 ```
