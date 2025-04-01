@@ -7,10 +7,10 @@ const Navbar = () => {
       <h1 className="text-lg font-bold">Workspace Booking</h1>
       <div>
         <Link to="/" className="mx-4 hover:underline">
-          🏠 Home
+          Home
         </Link>
         <Link to="/book" className="hover:underline">
-          📅 Book Facility
+          Book Facility
         </Link>
       </div>
     </nav>
